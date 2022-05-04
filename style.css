@@ -1,0 +1,244 @@
+
+.about-section{
+    background: url(https://fadzrinmadu.github.io/hosted-assets/responsive-about-us-section-using-html/pic.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+/* about over */
+/* rank */
+.custom-section
+{
+    background-color: whitesmoke;
+}
+.custom-img 
+{
+    width: 250px;
+    height: 250px;
+    animation: scroll 60s linear infinite;
+}
+.slide-track 
+{
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+}  
+.slider 
+{
+    padding: 0em 2em;
+}
+  
+@keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
+/* rank over */
+/* underlink */
+.five h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700; color:#202020;
+    text-transform: uppercase;
+  }
+  .five h1 span {
+    margin-top: 40px;
+    text-transform: none;
+    font-size:1.3rem;
+    font-weight: normal;
+    font-style: italic; 
+    color:#333; 
+    letter-spacing:-0.005em; word-spacing:1px;
+    letter-spacing:none;
+  }
+  /* undrline over */
+  /* counter */
+.sectionClass 
+{
+    position: relative;
+    display: block;
+}  
+.fullWidth 
+{
+    width: 100% !important;
+    display: table;
+    float: none;
+    padding: 0;
+    min-height: 1px;
+    height: 100%;
+    position: relative;
+}
+.sectiontitle 
+{
+    background-position: center;
+    margin: 30px 0 0px;
+    text-align: center;
+    min-height: 20px;
+  }
+  
+  .sectiontitle h2 {
+    font-size: 30px;
+    color: #222;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  
+  .headerLine {
+    width: 160px;
+    height: 2px;
+    display: inline-block;
+    background: #101F2E;
+  }
+  
+  
+.projectFactsWrap
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+  
+  #projectFacts .fullWidth{
+    padding: 0;
+  }
+  
+  .projectFactsWrap .item{
+    width: 25%;
+    height: 100%;
+    padding: 50px 0px;
+    text-align: center;
+  }
+  
+  .projectFactsWrap .item:nth-child(1){
+    background: rgb(16, 31, 46);
+  }
+  
+  .projectFactsWrap .item:nth-child(2){
+    background: rgb(18, 34, 51);
+  }
+  
+  .projectFactsWrap .item:nth-child(3){
+    background: rgb(21, 38, 56);
+  }
+  
+  .projectFactsWrap .item:nth-child(4){
+    background: rgb(23, 44, 66);
+  }
+  
+  .projectFactsWrap .item p.number{
+    font-size: 40px;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .projectFactsWrap .item p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Open Sans';
+  }
+  
+  
+  .projectFactsWrap .item span{
+    width: 60px;
+    background: rgba(255, 255, 255, 0.8);
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  .projectFactsWrap .item i{
+    vertical-align: middle;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  
+  .projectFactsWrap .item:hover i, .projectFactsWrap .item:hover p{
+    color: white;
+  }
+  
+  .projectFactsWrap .item:hover span{
+    background: white;
+  }
+  
+  @media (max-width: 786px){
+    .projectFactsWrap .item {
+       flex: 0 0 50%;
+    }
+  }
+  
+  /* counter over */
+  /* course description */
+  
+.custom-content-letter p:first-child::first-letter{
+    color:#FE5F55;
+    font-weight: bold;
+    font-size: 70px;
+    float: left;
+    line-height: 60px;
+    padding-right: 8px;
+    margin-top: -3px;
+}
+
+@media screen and (max-width:600px){
+    .custom-content-letter{
+        width: 100%;
+        padding: 1rem;
+    }
+}
+/* course over */
+/* time chart */
